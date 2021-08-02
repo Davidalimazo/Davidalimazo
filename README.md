@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @Davidalimazo
 - 👀 I’m interested in full stack web development
-- 🌱 I’m currently learning angular and react
+- 🌱 I’m interested in learning daily development
 - 💞️ I’m looking to collaborate on wed development projects
 - 📫 How to reach me, just send me a mail via davidalimazo@gmail.com
 
