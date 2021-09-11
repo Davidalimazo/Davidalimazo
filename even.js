@@ -13,3 +13,12 @@ isItEven(x);
 function variableName(name) {
   return /^[a-z_]\w*$/i.test(name)
 }
+
+/*
+An IP address is a numerical label assigned to each device (e.g., computer, printer) participating in a computer network that uses the Internet Protocol for communication. There are two versions of the Internet protocol, and thus two versions of addresses. One of them is the IPv4 address.
+
+Given a string, find out if it satisfies the IPv4 address naming rules
+*/
+
+const isIPv4Address = (inputString) =>
+  /^((25[0-5]|2[0-4]\d|1\d{2}|[1-9]?\d)(\.(?!$)|$)){4}$/.test(inputString);
