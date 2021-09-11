@@ -7,3 +7,9 @@ function isItEven(n) {
 
 let x = 12345;
 isItEven(x); 
+
+//allow variable name to start with only letters but not digit underscore is allowed but hyphen is not allowed
+
+function variableName(name) {
+  return /^[a-z_]\w*$/i.test(name)
+}
